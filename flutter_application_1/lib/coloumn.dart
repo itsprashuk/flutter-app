@@ -8,7 +8,7 @@ void main()
       home: Scaffold(
         body: SafeArea(
             child: Column(
-              children: [
+              children:[
                 Container(
                   color: Colors.deepPurple,
                   padding: EdgeInsets.all(10),
@@ -29,7 +29,7 @@ void main()
                   margin: EdgeInsets.only(bottom: 10),
                   child: Text(
                     " Hey prashuk how are you...",style: TextStyle(fontSize: 25),),
-                ),
+                 ),
       ],
             )),
           

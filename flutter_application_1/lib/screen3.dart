@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+class Screen3 extends StatelessWidget {
+  const Screen3({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Screen3"),
+        backgroundColor:  Colors.amberAccent,
+      ),
+      body: Center(
+        child: Container(
+          child: ElevatedButton(child: Text("Goto screen 2"),
+          onPressed: (){
+            Navigator.pop(context);
+          },),
+        ),
+      ),
+    );
+  }
+}
